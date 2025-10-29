@@ -1,0 +1,23 @@
+n1=int(input("Enter first number:"))
+n2=int(input("Enter second number:"))
+x=n1
+y=n2
+while(n2!=0):
+    t=n2
+    n2=n1%n2
+    n1=t
+GCD=n1
+print("GCD of {0} and {1}={2}".format(x,y,GCD))
+LCM=(x*y)/GCD
+print("LCM of {0} and {1}={2}".format(x,y,LCM))
+
+OUTPUT
+Enter first number:12
+Enter second number:18
+GCD of 12 and 18=6
+LCM of 12 and 18=36.0
+
+Enter first number:5
+Enter second number:10
+GCD of 5 and 10=5
+LCM of 5 and 10=10.0
