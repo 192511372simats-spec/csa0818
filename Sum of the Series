@@ -1,0 +1,12 @@
+N=int(input("Enter the limit:"))
+count=0
+for i in range(1,N+1):
+    count+=i+1
+print("Sum of square of N natural numbers",count)
+
+OUTPUT:
+Enter the limit:6
+Sum of square of N natural numbers 27
+
+Enter the limit:2
+Sum of square of N natural numbers 5
