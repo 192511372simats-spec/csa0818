@@ -1,0 +1,7 @@
+r=int(input("enter the radius r"))
+a=3.14*r*r
+print("Area of the circle=",a)
+
+OUTPUT
+enter the radius r 6
+Area of the circle= 113.03999999999999
