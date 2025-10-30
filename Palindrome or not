@@ -1,0 +1,15 @@
+num = int(input("Enter a number: "))
+
+str_num = str(num)
+
+if str_num == str_num[::-1]:
+    print(num, "is a palindrome number.")
+else:
+    print(num, "is not a palindrome number.")
+
+OUTPUT:
+Enter a number: 123454321
+123454321 is a palindrome number.
+
+Enter a number: 12345643
+12345643 is not a palindrome number.
