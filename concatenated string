@@ -1,0 +1,11 @@
+string1 = input("Enter first string: ")
+string2 = input("Enter second string: ")
+
+result = string1 + string2
+
+print("Concatenated string:", result)
+
+OUTPUT:
+Enter first string: hello!
+Enter second string: welcome to python.
+Concatenated string: hello!welcome to python.
