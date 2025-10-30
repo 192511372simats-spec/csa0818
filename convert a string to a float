@@ -1,0 +1,11 @@
+string_num = input("Enter a number in string form: ")
+
+float_num = float(string_num)
+
+print("String value:", string_num)
+print("Float value:", float_num)
+
+  OUTPUT:
+Enter a number in string form: 3451
+String value: 3451
+Float value: 3451.0
