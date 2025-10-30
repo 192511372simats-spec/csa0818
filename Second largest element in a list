@@ -1,0 +1,12 @@
+numbers = [10, 25, 4, 78, 45, 90, 67]
+
+numbers = list(set(numbers))
+
+numbers.sort(reverse=True)
+
+second_largest = numbers[1]
+
+print("The second largest element is:", second_largest)
+
+OUTPUT:
+The second largest element is: 78
