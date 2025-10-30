@@ -1,0 +1,14 @@
+n = float(input("Enter a number: "))
+
+x = n / 2
+
+tolerance = 0.000001
+
+while abs(x*x - n) > tolerance:
+    x = 0.5 * (x + n / x)
+
+print("The square root of", n, "is approximately:", x)
+
+OUTPUT:
+Enter a number: 25
+The square root of 25.0 is approximately: 5.000000000016778
