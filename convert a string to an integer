@@ -1,0 +1,11 @@
+string_num = input("Enter a number in string form: ")
+
+integer_num = int(string_num)
+
+print("String value:", string_num)
+print("Integer value:", integer_num)
+
+  OUTPUT:
+Enter a number in string form: 123
+String value: 123
+Integer value: 123
