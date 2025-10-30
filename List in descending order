@@ -1,0 +1,6 @@
+numbers = [10, 5, 8, 20, 3]
+numbers.sort(reverse=True)
+print("List sorted in descending order:", numbers)
+
+OUTPUT:
+List sorted in descending order: [20, 10, 8, 5, 3]
