@@ -1,0 +1,9 @@
+nums = [1, 3, 4, 2, 2]
+
+for n in nums:
+    if nums.count(n) > 1:
+        print("Repeated number:", n)
+        break
+
+OUTPUT:
+Repeated number: 2
