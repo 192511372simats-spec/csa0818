@@ -1,0 +1,10 @@
+numbers = [1, 2, 3, 2, 4, 1, 5, 3]
+
+unique_numbers = list(set(numbers))
+
+print("Original list:", numbers)
+print("List after removing duplicates:", unique_numbers)
+
+OUTPUT:
+Original list: [1, 2, 3, 2, 4, 1, 5, 3]
+List after removing duplicates: [1, 2, 3, 4, 5]
