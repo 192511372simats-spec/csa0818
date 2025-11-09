@@ -1,0 +1,39 @@
+A = [[1, 1, 1],
+     [2, 2, 2],
+     [3, 3, 3]]
+
+B = [[1, 1, 1],
+     [2, 2, 2],
+     [3, 3, 3]]
+
+C = [[1, 1, 1],
+     [2, 2, 2],
+     [3, 3, 3]]
+     
+AB = [[0, 0, 0],
+      [0, 0, 0],
+      [0, 0, 0]]
+
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            AB[i][j] += A[i][k] * B[k][j]
+
+ABC = [[0, 0, 0],
+       [0, 0, 0],
+       [0, 0, 0]]
+
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            ABC[i][j] += AB[i][k] * C[k][j]
+
+print("Result of A × B × C:")
+for r in ABC:
+    print(r)
+
+OUTPUT:
+Result of A × B × C:
+[36, 36, 36]
+[72, 72, 72]
+[108, 108, 108]
