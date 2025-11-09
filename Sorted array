@@ -1,0 +1,10 @@
+arr = [90, 70, 80, 60, 78, 10]
+arr.sort()
+print("Sorted array:", arr)
+
+mid = len(arr)//2
+print("Middle element:", arr[mid])
+
+OUTPUT:
+Sorted array: [10, 60, 70, 78, 80, 90]
+Middle element: 78
